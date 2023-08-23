@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ON-LED</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .flex-container {
+          display: flex;
+          justify-content: space-around;
+          background-color: rgba(30, 143, 255, 0);
+          
+        }
+        
+        .flex-container > div {
+          background-color: #f1f1f100;
+          width: 100px;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
+          border-style:double;
+        }
+        </style>
+
+
+
+</head>
+<body>
+
+    <h2>QUAL É O ALCANCE DO JAVA</h2>
+
+<p>JavaScript PODE ALTERAR VALORES NO HTML.</p>
+
+<p>Nesse caso o Java redimenciona o valor do "src" da imagem.</p>
+
+<div class="flex-container">
+
+    <div>
+<button type="button" onclick="ligar()" >ACENDER</button>
+    </div>
+
+
+<img id="myImage" src="lampada1.jpg" height="200px" width="200px" >
+
+<div>
+<button type="button" onclick="apagar()">APAGAR</button>
+</div>
+
+
+</div>
+
+<script src="script.js"></script>
+
+
+    
+</body>
+</html>
